@@ -9,4 +9,6 @@ package com.wt.study.principle.singleresponseibillity;
  * @Version: v1.0
  */
 public interface CourseManager {
+    void studyCourse();
+    void refundCourse();
 }

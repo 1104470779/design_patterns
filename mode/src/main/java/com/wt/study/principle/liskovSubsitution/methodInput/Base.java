@@ -1,5 +1,7 @@
 package com.wt.study.principle.liskovSubsitution.methodInput;
 
+import java.util.Map;
+
 /**
  * @ProjectName: demo-mode
  * @Package: com.wt.study.principle.liskovSubsitution.methodInput
@@ -9,4 +11,8 @@ package com.wt.study.principle.liskovSubsitution.methodInput;
  * @Version: v1.0
  */
 public class Base {
+    public void method(Map map){
+        System.out.println("父类被执行");
+
+    }
 }

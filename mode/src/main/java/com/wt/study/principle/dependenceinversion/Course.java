@@ -9,4 +9,5 @@ package com.wt.study.principle.dependenceinversion;
  * @Version: v1.0
  */
 public interface Course {
+    void studyCourse();
 }

@@ -9,4 +9,7 @@ package com.wt.study.principle;
  * @Version: v1.0
  */
 public class BaseTest {
+    protected void print(Object o){
+        System.out.println(o.toString());
+    }
 }

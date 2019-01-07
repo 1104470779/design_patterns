@@ -1,5 +1,10 @@
 package com.wt.study.principle.liskovSubsitution;
 
+import com.wt.study.principle.BaseTest;
+import com.wt.study.principle.liskovSubsitution.methodInput.Child;
+
+import java.util.HashMap;
+
 /**
  * @ProjectName: demo-mode
  * @Package: com.wt.study.principle.liskovSubsitution
@@ -8,5 +13,11 @@ package com.wt.study.principle.liskovSubsitution;
  * @CreateDate: 2019/1/3 9:54 PM
  * @Version: v1.0
  */
-public class Test {
+public class Test extends BaseTest{
+    @org.junit.Test
+    public void test(){
+        com.wt.study.principle.liskovSubsitution.methodInput.Child child = new Child();
+        HashMap hashMap = new HashMap();
+        child.method(hashMap);
+    }
 }

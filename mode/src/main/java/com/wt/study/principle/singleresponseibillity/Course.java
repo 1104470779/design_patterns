@@ -8,5 +8,10 @@ package com.wt.study.principle.singleresponseibillity;
  * @CreateDate: 2018/12/20 10:34 PM
  * @Version: v1.0
  */
-public class Course {
+public interface Course {
+    String courseName();
+    byte[] courseVido();
+
+    void studyCourse();
+    void refundCourse();
 }

@@ -8,5 +8,9 @@ package com.wt.study.principle.compositionaggregation;
  * @CreateDate: 2019/1/3 10:38 PM
  * @Version: v1.0
  */
-public class MysqlConnection {
+public class MysqlConnection extends DBConnection{
+    @Override
+    public String getConnection() {
+        return "MySql数据库连接";
+    }
 }

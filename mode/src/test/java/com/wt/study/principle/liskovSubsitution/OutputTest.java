@@ -1,5 +1,8 @@
 package com.wt.study.principle.liskovSubsitution;
 
+import com.wt.study.principle.BaseTest;
+import com.wt.study.principle.liskovSubsitution.methodout.Child;
+
 /**
  * @ProjectName: demo-mode
  * @Package: com.wt.study.principle.liskovSubsitution
@@ -8,5 +11,10 @@ package com.wt.study.principle.liskovSubsitution;
  * @CreateDate: 2019/1/3 10:03 PM
  * @Version: v1.0
  */
-public class OutputTest {
+public class OutputTest extends BaseTest{
+    @org.junit.Test
+    public void test(){
+        Child child = new Child();
+        System.out.println(child.method());
+    }
 }

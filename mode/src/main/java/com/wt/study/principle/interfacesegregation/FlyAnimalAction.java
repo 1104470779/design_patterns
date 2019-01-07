@@ -9,4 +9,5 @@ package com.wt.study.principle.interfacesegregation;
  * @Version: v1.0
  */
 public interface FlyAnimalAction {
+    void fly();
 }

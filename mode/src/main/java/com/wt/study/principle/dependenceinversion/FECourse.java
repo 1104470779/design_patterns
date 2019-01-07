@@ -8,5 +8,9 @@ package com.wt.study.principle.dependenceinversion;
  * @CreateDate: 2018/12/20 9:05 PM
  * @Version: v1.0
  */
-public class FECourse {
+public class FECourse implements Course{
+    @Override
+    public void studyCourse() {
+        System.out.println("学习前端课程");
+    }
 }

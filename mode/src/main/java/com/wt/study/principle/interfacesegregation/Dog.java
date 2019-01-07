@@ -8,5 +8,16 @@ package com.wt.study.principle.interfacesegregation;
  * @CreateDate: 2018/12/22 9:49 PM
  * @Version: v1.0
  */
-public class Dog {
+public class Dog implements EatAnimalAction,SwimAnimalAction{
+
+
+    @Override
+    public void eat() {
+
+    }
+
+    @Override
+    public void swim() {
+
+    }
 }

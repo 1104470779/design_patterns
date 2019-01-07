@@ -1,5 +1,7 @@
 package com.wt.study.principle.demeter;
 
+import org.junit.Test;
+
 /**
  * @ProjectName: demo-mode
  * @Package: com.wt.study.principle.demeter
@@ -9,4 +11,11 @@ package com.wt.study.principle.demeter;
  * @Version: v1.0
  */
 public class CheckCourseTest {
+    @Test
+    public void test1(){
+        Boss boss = new Boss();
+        TeamLeader teamLeader = new TeamLeader();
+
+        boss.commandCheckNumber(teamLeader);
+    }
 }

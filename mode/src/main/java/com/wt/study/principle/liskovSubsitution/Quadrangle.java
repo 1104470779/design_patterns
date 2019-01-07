@@ -8,5 +8,7 @@ package com.wt.study.principle.liskovSubsitution;
  * @CreateDate: 2018/12/29 11:25 PM
  * @Version: v1.0
  */
-public class Quadrangle {
+public interface Quadrangle {
+    long getWidth();
+    long getLength();
 }

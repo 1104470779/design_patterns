@@ -9,4 +9,7 @@ package com.wt.study.principle.openclose;
  * @Version: v1.0
  */
 public interface Cource {
+    Integer getId();
+    String getName();
+    Double getPrice();
 }

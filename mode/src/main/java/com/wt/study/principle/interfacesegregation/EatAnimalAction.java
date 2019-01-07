@@ -9,4 +9,6 @@ package com.wt.study.principle.interfacesegregation;
  * @Version: v1.0
  */
 public interface EatAnimalAction {
+
+    void eat();
 }

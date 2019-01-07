@@ -1,5 +1,9 @@
 package com.wt.study.principle.liskovSubsitution;
 
+import org.junit.Test;
+
+import java.util.HashMap;
+
 /**
  * @ProjectName: demo-mode
  * @Package: com.wt.study.principle.liskovSubsitution
@@ -9,4 +13,10 @@ package com.wt.study.principle.liskovSubsitution;
  * @Version: v1.0
  */
 public class TestChild {
+    @Test
+    public void test1(){
+        Child child = new Child();
+        HashMap<Object, Object> objectObjectHashMap = new HashMap<>();
+        child.method(objectObjectHashMap);
+    }
 }

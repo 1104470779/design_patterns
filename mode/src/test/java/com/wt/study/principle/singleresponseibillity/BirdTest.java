@@ -1,4 +1,6 @@
-import static org.junit.Assert.*;
+package com.wt.study.principle.singleresponseibillity;
+
+import org.junit.Test;
 
 /**
  * @ProjectName: demo-mode
@@ -9,5 +11,18 @@ import static org.junit.Assert.*;
  * @Version: v1.0
  */
 public class BirdTest {
+    @Test
+    public void test1(){
+        Bird bird = new Bird();
+        bird.mainMoveMode("大雁");
+        bird.mainMoveMode("鸵鸟");
+    }
 
+    @Test
+    public void test2(){
+        FlyBird flyBird = new FlyBird();
+        flyBird.mainMoveMode("大雁");
+        WalkBird walkBird = new WalkBird();
+        walkBird.mainMoveMode("鸵鸟");
+    }
 }

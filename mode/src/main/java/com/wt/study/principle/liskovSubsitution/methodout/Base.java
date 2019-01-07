@@ -1,5 +1,7 @@
 package com.wt.study.principle.liskovSubsitution.methodout;
 
+import java.util.Map;
+
 /**
  * @ProjectName: demo-mode
  * @Package: com.wt.study.principle.liskovSubsitution.methodout
@@ -8,5 +10,6 @@ package com.wt.study.principle.liskovSubsitution.methodout;
  * @CreateDate: 2019/1/3 10:01 PM
  * @Version: v1.0
  */
-public class Base {
+public abstract class Base {
+    public abstract Map method();
 }

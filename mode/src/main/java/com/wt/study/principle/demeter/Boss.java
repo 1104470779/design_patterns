@@ -9,4 +9,10 @@ package com.wt.study.principle.demeter;
  * @Version: v1.0
  */
 public class Boss {
+
+    public void commandCheckNumber(TeamLeader teamLeader){
+
+        teamLeader.checkNumber();
+
+    }
 }

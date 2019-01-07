@@ -8,5 +8,9 @@ package com.wt.study.principle.compositionaggregation;
  * @CreateDate: 2019/1/3 10:39 PM
  * @Version: v1.0
  */
-public class PostgreeConnection {
+public class PostgreeConnection extends DBConnection{
+    @Override
+    public String getConnection() {
+        return "PostgreeConnection数据库连接";
+    }
 }

@@ -9,4 +9,7 @@ package com.wt.study.principle.singleresponseibillity;
  * @Version: v1.0
  */
 public interface CourseContent {
+
+    String courseName();
+    byte[] courseVido();
 }

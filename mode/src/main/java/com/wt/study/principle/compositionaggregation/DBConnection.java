@@ -8,5 +8,6 @@ package com.wt.study.principle.compositionaggregation;
  * @CreateDate: 2019/1/3 10:25 PM
  * @Version: v1.0
  */
-public class DBConnection {
+public abstract class DBConnection {
+    public abstract String getConnection();
 }
