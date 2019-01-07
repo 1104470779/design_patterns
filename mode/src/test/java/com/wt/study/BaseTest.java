@@ -1,4 +1,4 @@
-package com.wt.study.principle;
+package com.wt.study;
 
 /**
  * @ProjectName: demo-mode
