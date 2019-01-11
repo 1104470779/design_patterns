@@ -1,6 +1,6 @@
 package com.wt.study.principle.compositionaggregation;
 
-import com.wt.study.principle.BaseTest;
+import com.wt.study.BaseTest;
 
 /**
  * @ProjectName: demo-mode

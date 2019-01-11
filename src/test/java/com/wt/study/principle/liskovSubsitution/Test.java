@@ -1,6 +1,6 @@
 package com.wt.study.principle.liskovSubsitution;
 
-import com.wt.study.principle.BaseTest;
+import com.wt.study.BaseTest;
 import com.wt.study.principle.liskovSubsitution.methodInput.Child;
 
 import java.util.HashMap;

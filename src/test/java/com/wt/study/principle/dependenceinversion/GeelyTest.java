@@ -1,6 +1,6 @@
 package com.wt.study.principle.dependenceinversion;
 
-import com.wt.study.principle.BaseTest;
+import com.wt.study.BaseTest;
 import org.junit.Test;
 
 /**
