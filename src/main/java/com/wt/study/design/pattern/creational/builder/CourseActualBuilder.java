@@ -9,7 +9,7 @@ package com.wt.study.design.pattern.creational.builder;
  * @Version: v1.0
  */
 public class CourseActualBuilder extends CourseBuilder{
-    private Course course;
+    private Course course = new Course();
 
     @Override
     public void buildCourseName(String courseName) {

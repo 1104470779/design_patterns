@@ -23,5 +23,10 @@ public abstract class CourseBuilder {
     public abstract  void buildarticle(String article);
     public abstract  void buildQA(String QA);
 
+    /**
+     * fetch data by rule id
+     *
+     * @return Course
+     */
     public abstract Course makeCourse();
 }
