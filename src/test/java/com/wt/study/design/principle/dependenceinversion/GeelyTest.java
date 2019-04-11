@@ -1,9 +1,6 @@
 package com.wt.study.design.principle.dependenceinversion;
 
 import com.wt.study.BaseTest;
-import com.wt.study.design.principle.dependenceinversion.FECourse;
-import com.wt.study.design.principle.dependenceinversion.Geely;
-import com.wt.study.design.principle.dependenceinversion.JavaCource;
 import org.junit.Test;
 
 /**
