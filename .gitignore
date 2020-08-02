@@ -5,3 +5,5 @@ target/
 *.iml
 mvnw
 *.cmd
+*.DS_Store
+logs
